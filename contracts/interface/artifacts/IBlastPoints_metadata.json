@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "operator",
+						"type": "address"
+					}
+				],
+				"name": "configurePointsOperator",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interface/IBlastPoints.sol": "IBlastPoints"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interface/IBlastPoints.sol": {
+			"keccak256": "0x8b816f337131c60d36e275167b62d875ef0dbde9f28fad52a7344fa52d4700ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c1fae4bb551a19433650508f9105612dc3800c83eb86240aa1790993ddca7beb",
+				"dweb:/ipfs/QmfXhHESmD5LKqwNw3Ce6DdqA2tR4JQs22Tm8WTjEMpMDd"
+			]
+		}
+	},
+	"version": 1
+}
