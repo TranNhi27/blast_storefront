@@ -4,9 +4,6 @@ async function main() {
   const initialOwnerAddress = "0x306563D12A1ee361280884d8Cf68b14c0d34908b";
   const pointsOperator = "0x5e5af5dc3cc3c93fa8347fa98eddc942162d0cbf";
 
-  // const initialOwner = ethers.utils.getAddress(initialOwnerAddress);
-  // const _pointsOperator = ethers.utils.getAddress(pointsOperator);
-
   const _mintPrice = 300000000000000;
   const storefront = await hre.ethers.deployContract("Storefront", [
     initialOwnerAddress,
